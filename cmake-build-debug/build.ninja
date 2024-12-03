@@ -55,18 +55,6 @@ build CMakeFiles/Algorithm.dir/assign5.c.o: C_COMPILER__Algorithm_unscanned_Debu
   OBJECT_DIR = CMakeFiles/Algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles/Algorithm.dir
 
-build CMakeFiles/Algorithm.dir/1-1.c.o: C_COMPILER__Algorithm_unscanned_Debug /Users/kangminjae/CLionProjects/Algorithm/1-1.c || cmake_object_order_depends_target_Algorithm
-  DEP_FILE = CMakeFiles/Algorithm.dir/1-1.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/Algorithm.dir
-  OBJECT_FILE_DIR = CMakeFiles/Algorithm.dir
-
-build CMakeFiles/Algorithm.dir/1-2.c.o: C_COMPILER__Algorithm_unscanned_Debug /Users/kangminjae/CLionProjects/Algorithm/1-2.c || cmake_object_order_depends_target_Algorithm
-  DEP_FILE = CMakeFiles/Algorithm.dir/1-2.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/Algorithm.dir
-  OBJECT_FILE_DIR = CMakeFiles/Algorithm.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Algorithm
@@ -75,7 +63,7 @@ build CMakeFiles/Algorithm.dir/1-2.c.o: C_COMPILER__Algorithm_unscanned_Debug /U
 #############################################
 # Link the executable Algorithm
 
-build Algorithm: C_EXECUTABLE_LINKER__Algorithm_Debug CMakeFiles/Algorithm.dir/assign5.c.o CMakeFiles/Algorithm.dir/1-1.c.o CMakeFiles/Algorithm.dir/1-2.c.o
+build Algorithm: C_EXECUTABLE_LINKER__Algorithm_Debug CMakeFiles/Algorithm.dir/assign5.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/Algorithm.dir
   POST_BUILD = :
